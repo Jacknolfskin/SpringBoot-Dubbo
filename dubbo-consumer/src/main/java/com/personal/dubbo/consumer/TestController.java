@@ -1,6 +1,6 @@
 package com.personal.dubbo.consumer;
 
-import com.minbo.dubbo.provider.DemoService;
+import com.personal.dubbo.provider.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import com.alibaba.fastjson.JSONObject;

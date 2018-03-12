@@ -6,9 +6,7 @@
     <groupId>com.personal.dubbo.provider</groupId>
     <artifactId>dubbo-provider</artifactId>
     <packaging>jar</packaging>
-
     <name>dubbo-provider</name>
-    <description>Demo project for Spring Boot</description>
 
     <parent>
         <artifactId>SpringBoot-Dubbo</artifactId>

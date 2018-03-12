@@ -21,6 +21,13 @@
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.personal.dubbo.provider</groupId>
+            <artifactId>dubbo-provider</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
         <!-- 构建成可运行的Web项目 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -73,11 +80,6 @@
             <groupId>com.github.sgroschupf</groupId>
             <artifactId>zkclient</artifactId>
             <version>0.1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.personal.dubbo.provider</groupId>
-            <artifactId>dubbo-provider</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
