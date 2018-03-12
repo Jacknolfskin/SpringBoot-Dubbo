@@ -1,9 +1,9 @@
-package com.minbo.dubbo.consumer;
+package com.personal.dubbo.consumer;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import com.alibaba.fastjson.JSONObject;
-import com.minbo.dubbo.provider.DemoService;
+import com.personal.dubbo.provider.DemoService;
 
 import org.springframework.web.bind.annotation.PathVariable;  
 import org.springframework.web.bind.annotation.RequestMapping;  

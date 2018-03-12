@@ -1,11 +1,15 @@
-package com.minbo.dubbo.consumer;
+package com.personal.dubbo.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ImportResource;
 
+/**
+ * @Author: Jacknolfskin
+ * @Date: 2018/2/23 14:44
+ * @Path: com.personal.config
+ */
 @SpringBootApplication
-// 使用 consumers.xml 配置；
 @ImportResource(value = { "classpath:consumers.xml" })
 public class DubboConsumerApplication {
 
