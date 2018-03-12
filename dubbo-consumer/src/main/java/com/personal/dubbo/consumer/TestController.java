@@ -1,9 +1,9 @@
 package com.personal.dubbo.consumer;
 
+import com.minbo.dubbo.provider.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import com.alibaba.fastjson.JSONObject;
-import com.personal.dubbo.provider.DemoService;
 
 import org.springframework.web.bind.annotation.PathVariable;  
 import org.springframework.web.bind.annotation.RequestMapping;  
@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class TestController {
 	
 	@Autowired
-	DemoService demoService;
+	private DemoService demoService;
 
 	/**
 	 * 测试 JSON 接口；
