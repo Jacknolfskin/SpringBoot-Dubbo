@@ -75,9 +75,9 @@
             <version>0.1</version>
         </dependency>
         <dependency>
-            <groupId>com.minbo.dubbo.provider</groupId>
+            <groupId>com.personal.dubbo.provider</groupId>
             <artifactId>dubbo-provider</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

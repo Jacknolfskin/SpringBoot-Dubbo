@@ -17,10 +17,10 @@
 	<dubbo:protocol name="dubbo" port="-1" />
 	
 	<!-- 声明需要暴露的服务接口 -->
-	<dubbo:service interface="com.minbo.dubbo.provider.DemoService"
+	<dubbo:service interface="com.personal.dubbo.provider.DemoService"
 		ref="demoService" timeout="10000" />
 		
 	<!-- 和本地 bean 一样实现服务 -->
-	<bean id="demoService" class="com.minbo.dubbo.provider.DemoServiceImpl" />
+	<bean id="demoService" class="com.personal.dubbo.provider.DemoServiceImpl" />
 	
 </beans>
