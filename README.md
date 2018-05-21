@@ -6,5 +6,5 @@
 2. 安装 Dubbo 服务端
 3. 构建 Zookeeper + Dubbo + Spring Boot 的分布式调用项目
 
-## 技术讨论 & [博客地址](http://codeteen.cn/)
+## 技术讨论 & [博客地址](http://www.jacknolfskin.top/)
 如果对项目有任何疑问或者建议,欢迎到我的博客留言!
